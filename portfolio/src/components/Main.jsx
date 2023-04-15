@@ -11,11 +11,12 @@ const Main = () => {
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/10">
-        <div className="max-w-[700px] m-auto w-full h-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="sm:text-7xl text-5xl font-extrabold drop-shadow-xl shadow-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-500 to-amber-500 animate-text">
+        <div className="max-w-[700px] m-auto w-full h-full flex flex-col justify-center  items-center">
+          <h1 className="sm:text-7xl text-6xl font-extrabold pb-2 drop-shadow-xl shadow-black text-transparent bg-clip-text bg-gradient-to-l from-amber-700 via-amber-400 to-yellow-200 animate-text font-poppins">
             I'm Dmitriy
           </h1>
-          <h2 className="flex sm:text-3xl text-2xl font-bold pt-4  drop-shadow-xl shadow-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-amber-400 to-amber-700 animate-text ">
+          {/* lg:items-start */}
+          <h2 className="flex sm:text-3xl text-2xl font-bold pt-4  drop-shadow-xl shadow-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-amber-400 to-amber-700 animate-text font-poppins">
             I'm a
             <TypeAnimation
               sequence={[

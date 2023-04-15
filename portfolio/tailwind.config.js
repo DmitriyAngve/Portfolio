@@ -10,16 +10,19 @@ export default {
         "text": {
           "0%, 100%": {
             "background-size": "200% 200%",
-            "background-position": "left center",
+            "background-position": "left",
           },
           "50%": {
             "background-size": "200% 200%",
-            "background-position": "right center",
+            "background-position": "right",
           },
         },
       },
       boxShadow: {
         "right": "10px 0 25px -10px rgba(231, 148, 14, 0.43)",
+      },
+      fontFamily: {
+        "poppins": ["Poppins", "sans-serif"],
       },
     },
   },
