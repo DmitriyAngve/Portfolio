@@ -66,31 +66,31 @@ const Sidenav = () => {
         <div className="flex flex-col">
           <a
             href="#main"
-            className="rounded-full shadow-md bg-gray-100/50 shadow-amber-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
             <AiOutlineHome size={20} />
           </a>
           <a
             href="#work"
-            className="rounded-full shadow-md bg-gray-100/50 shadow-amber-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
             <GrProjects size={20} />
           </a>
           <a
             href="#projects"
-            className="rounded-full shadow-md bg-gray-100/50 shadow-amber-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
             <AiOutlineProject size={20} />
           </a>
           <a
             href="#main"
-            className="rounded-full shadow-md bg-gray-100/50 shadow-amber-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
             <BsPerson size={20} />
           </a>
           <a
             href="#contact"
-            className="rounded-full shadow-md bg-gray-100/50 shadow-amber-200 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 "
+            className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
             <AiOutlineMail size={20} />
           </a>
