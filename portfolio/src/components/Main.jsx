@@ -11,7 +11,7 @@ const Main = () => {
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/10">
-        <div className="max-w-[700px] m-auto w-full h-full flex flex-col justify-center  items-center">
+        <div className="max-w-[700px] m-auto w-full h-full flex flex-col justify-center items-center">
           <h1 className="sm:text-7xl text-6xl font-extrabold pb-2 drop-shadow-xl shadow-black text-transparent bg-clip-text bg-gradient-to-l from-amber-700 via-amber-400 to-yellow-200 animate-text font-poppins">
             I'm Dmitriy
           </h1>
