@@ -37,7 +37,7 @@ const Main = () => {
               }}
             />
           </h2>
-          <div>
+          <div className="flex justify-between max-w-[200px] w-full">
             <FaTwitter className="cursor-pointer" size={20} />
             <FaGithub className="cursor-pointer" size={20} />
             <FaInstagram className="cursor-pointer" size={20} />
