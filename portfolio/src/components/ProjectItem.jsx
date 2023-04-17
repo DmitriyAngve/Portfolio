@@ -1,13 +1,7 @@
 import React from "react";
+import TechItems from "./TechItems";
 
-const projectsData = [
-  { tech: "React JS" },
-  { tech: "JavaScript" },
-  { tech: "React JS / Redux TK" },
-  { tech: "SASS" },
-];
-
-const ProjectItem = ({ img, title }) => {
+const ProjectItem = ({ img, title, tech }) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-amber-500 shadow-right rounded-md group hover:bg-gradient-to-l from-sky-100 to-amber-200">
       <img
@@ -19,8 +13,13 @@ const ProjectItem = ({ img, title }) => {
         <h3 className="text-2xl font-bold text-amber-800 tracking-wider text-center">
           {title}
         </h3>
-
-        <p className="pb-4 pt-2 text-amber-800 text-center">React JS</p>
+        <p className="pb-4 pt-2 text-amber-800 text-center">
+          {tech.map((t, i) => (
+            <span key={i} className="text-xl font-bold text-amber-800">
+              {t}
+            </span>
+          ))}
+        </p>
         <a href="/">
           <p className="text-center p-3 rounded-full bg-sky-50 text-amber-800 font-bold cursor-pointer text-lg">
             More info
