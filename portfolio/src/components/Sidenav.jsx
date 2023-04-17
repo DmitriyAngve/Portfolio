@@ -6,7 +6,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { GrProjects } from "react-icons/gr";
+import { MdWorkOutline } from "react-icons/md";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
@@ -17,45 +17,52 @@ const Sidenav = () => {
   return (
     <div>
       <AiOutlineMenu
+        size={40}
         onClick={handleNav}
         className="absolute top-4 right-4 z-[99] md:hidden fill-amber-500"
       />
       {nav ? (
-        <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
+        <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20 bg-gradient-to-r from-sky-100 to-amber-100">
           <a
             href="#main"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
-            <AiOutlineHome size={20} />
-            <span className="pl-4">Home</span>
+            <AiOutlineHome size={40} className="fill-amber-500/70" />
+            <span className="pl-4 text-2xl font-bold text-[#273558]">Home</span>
           </a>
           <a
             href="#work"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
-            <GrProjects size={20} />
-            <span className="pl-4">Work</span>
+            <MdWorkOutline size={40} className="fill-amber-500/70" />
+            <span className="pl-4 text-2xl font-bold text-[#273558]">Work</span>
           </a>
           <a
             href="#projects"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
-            <AiOutlineProject size={20} />
-            <span className="pl-4">Projects</span>
+            <AiOutlineProject size={40} className="fill-amber-500/70" />
+            <span className="pl-4 text-2xl font-bold text-[#273558]">
+              Projects
+            </span>
           </a>
           <a
             href="#main"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
-            <BsPerson size={20} />
-            <span className="pl-4">Resume</span>
+            <BsPerson size={40} className="fill-amber-500/70" />
+            <span className="pl-4 text-2xl font-bold text-[#273558]">
+              Resume
+            </span>
           </a>
           <a
             href="#contact"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
-            <AiOutlineMail size={20} />
-            <span className="pl-4">Contact</span>
+            <AiOutlineMail size={40} className="fill-amber-500/70" />
+            <span className="pl-4 text-2xl font-bold text-[#273558]">
+              Contact
+            </span>
           </a>
         </div>
       ) : (
@@ -74,7 +81,7 @@ const Sidenav = () => {
             href="#work"
             className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
-            <GrProjects size={20} />
+            <MdWorkOutline size={20} />
           </a>
           <a
             href="#projects"
