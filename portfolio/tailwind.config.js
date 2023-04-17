@@ -4,16 +4,16 @@ export default {
   theme: {
     extend: {
       "animation": {
-        "text": "text 5s ease infinite",
+        "text": "text 4s linear infinite",
       },
       "keyframes": {
         "text": {
           "0%, 100%": {
-            "background-size": "200% 200%",
+            "background-size": "200% 100%",
             "background-position": "left",
           },
           "50%": {
-            "background-size": "200% 200%",
+            "background-size": "200% 100%",
             "background-position": "right",
           },
         },
