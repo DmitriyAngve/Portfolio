@@ -37,11 +37,11 @@ const Main = () => {
               }}
             />
           </h2>
-          <div className="flex justify-between max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaGithub className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedin className="cursor-pointer" size={20} />
+          <div className="flex justify-between max-w-[200px] w-full mt-6">
+            <FaTwitter className="cursor-pointer fill-amber-500" size={30} />
+            <FaGithub className="cursor-pointer fill-amber-500" size={30} />
+            <FaInstagram className="cursor-pointer fill-amber-500" size={30} />
+            <FaLinkedin className="cursor-pointer fill-amber-500" size={30} />
           </div>
         </div>
       </div>
