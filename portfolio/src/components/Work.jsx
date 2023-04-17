@@ -22,7 +22,7 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="w-full m-auto md:pl-20 p-4 py-16 bg-gradient-to-r from-sky-50 to-amber-50"
+      className="w-full m-auto md:pl-20 p-4 py-16 bg-gradient-to-r from-sky-100 to-amber-100"
     >
       {/* max-w-[1040px] */}
       <h1 className="text-4xl font-bold text-center text-[#273558] mb-6">
