@@ -20,10 +20,10 @@ const Main = () => {
             I'm a
             <TypeAnimation
               sequence={[
-                "Developer", // Types 'One'
-                2000, // Waits 1s
-                "Coder", // Deletes 'One' and types 'Two'
-                2000, // Waits 2s
+                "Developer",
+                2000,
+                "Coder",
+                2000,
                 "Tech Enthusiast",
                 2000,
               ]}
@@ -38,14 +38,20 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between max-w-[200px] w-full mt-6">
-            <FaTwitter className="cursor-pointer fill-amber-500/70" size={30} />
-            <FaGithub className="cursor-pointer fill-amber-500/70" size={30} />
+            <FaTwitter
+              className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
+              size={30}
+            />
+            <FaGithub
+              className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
+              size={30}
+            />
             <FaInstagram
-              className="cursor-pointer fill-amber-500/70"
+              className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
               size={30}
             />
             <FaLinkedin
-              className="cursor-pointer fill-amber-500/70"
+              className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
               size={30}
             />
           </div>

@@ -67,9 +67,11 @@ const Contact = () => {
             className="border-2 rounded-lg p-3 border-amber-200 focus:border-sky-800 focus:bg-sky-100 outline-none"
           ></textarea>
         </div>
-        <button className="bg-amber-300 text-[#273558] font-semibold text-xl mt-4 w-full p-4 rounded-lg">
-          Send Message
-        </button>
+        <div className="mx-auto w-full flex justify-center">
+          <button className="max-w-[400px] bg-amber-300 text-[#273558] font-semibold text-xl mt-4 w-full p-4 rounded-lg hover:scale-110 ease-in duration-300">
+            Send Message
+          </button>
+        </div>
       </form>
     </div>
   );
