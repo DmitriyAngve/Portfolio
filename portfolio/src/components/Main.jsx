@@ -38,22 +38,33 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between max-w-[200px] w-full mt-6">
-            <FaTwitter
-              className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
-              size={30}
-            />
-            <FaGithub
-              className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
-              size={30}
-            />
-            <FaInstagram
-              className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
-              size={30}
-            />
-            <FaLinkedin
-              className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
-              size={30}
-            />
+            <a href="https://twitter.com/Angve3" target="_blank">
+              <FaTwitter
+                className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
+                size={30}
+              />
+            </a>
+            <a href="https://github.com/DmitriyAngve" target="_blank">
+              <FaGithub
+                className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
+                size={30}
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/skaven_collector/"
+              target="_blank"
+            >
+              <FaInstagram
+                className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
+                size={30}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/dmitriyven" target="_blank">
+              <FaLinkedin
+                className="cursor-pointer fill-amber-500/70 hover:scale-110 ease-in duration-300"
+                size={30}
+              />
+            </a>
           </div>
         </div>
       </div>

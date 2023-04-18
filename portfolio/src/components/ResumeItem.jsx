@@ -8,7 +8,7 @@ const ResumeItem = () => {
           href="https://resume.io/r/UDD6iStxZ"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full max-w-[400px]"
+          className="w-full max-w-[300px]"
         >
           <button className="bg-amber-300 text-xl text-[#273558] font-semibold mt-4 w-full p-4 rounded-lg hover:scale-110 ease-in duration-300">
             Open resume
