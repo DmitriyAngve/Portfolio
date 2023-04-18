@@ -19,11 +19,12 @@ const Sidenav = () => {
       <AiOutlineMenu
         size={40}
         onClick={handleNav}
-        className="absolute top-4 right-4 z-[99] md:hidden fill-amber-500"
+        className="fixed top-4 right-4 z-50 md:hidden fill-amber-500"
       />
       {nav ? (
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20 bg-gradient-to-r from-sky-100 to-amber-100">
           <a
+            onClick={handleNav}
             href="#main"
             className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
@@ -31,6 +32,7 @@ const Sidenav = () => {
             <span className="pl-4 text-2xl font-bold text-[#273558]">Home</span>
           </a>
           <a
+            onClick={handleNav}
             href="#work"
             className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
@@ -38,6 +40,7 @@ const Sidenav = () => {
             <span className="pl-4 text-2xl font-bold text-[#273558]">Work</span>
           </a>
           <a
+            onClick={handleNav}
             href="#projects"
             className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
@@ -47,6 +50,7 @@ const Sidenav = () => {
             </span>
           </a>
           <a
+            onClick={handleNav}
             href="#main"
             className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
@@ -56,6 +60,7 @@ const Sidenav = () => {
             </span>
           </a>
           <a
+            onClick={handleNav}
             href="#contact"
             className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
