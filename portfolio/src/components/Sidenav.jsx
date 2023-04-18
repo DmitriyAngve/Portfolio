@@ -51,7 +51,7 @@ const Sidenav = () => {
           </a>
           <a
             onClick={handleNav}
-            href="#main"
+            href="#resume"
             className="w-[75%] flex justify-center items-center rounded-full m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg"
           >
             <BsPerson size={40} className="fill-amber-500/70" />
@@ -78,33 +78,33 @@ const Sidenav = () => {
         <div className="flex flex-col">
           <a
             href="#main"
-            className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
+            className="rounded-full bg-gray-100/70 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
-            <AiOutlineHome size={20} />
+            <AiOutlineHome size={25} className="fill-[#273558]" />
           </a>
           <a
             href="#work"
-            className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
+            className="rounded-full bg-gray-100/70 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
-            <MdWorkOutline size={20} />
+            <MdWorkOutline size={25} className="fill-[#273558]" />
           </a>
           <a
             href="#projects"
-            className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
+            className="rounded-full bg-gray-100/70 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
-            <AiOutlineProject size={20} />
+            <AiOutlineProject size={25} className="fill-[#273558]" />
           </a>
           <a
-            href="#main"
-            className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
+            href="#resume"
+            className="rounded-full bg-gray-100/70 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
-            <BsPerson size={20} />
+            <BsPerson size={25} className="fill-[#273558]" />
           </a>
           <a
             href="#contact"
-            className="rounded-full bg-gray-100/50 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
+            className="rounded-full bg-gray-100/70 shadow-amber-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 shadow-right"
           >
-            <AiOutlineMail size={20} />
+            <AiOutlineMail size={25} className="fill-[#273558]" />
           </a>
         </div>
       </div>

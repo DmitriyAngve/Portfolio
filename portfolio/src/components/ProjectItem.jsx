@@ -1,5 +1,5 @@
 import React from "react";
-import TechItems from "./TechItems";
+// import TechItems from "./TechItems";
 
 const ProjectItem = ({ img, title, tech }) => {
   return (
