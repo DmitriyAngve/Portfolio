@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full m-auto md:pl-20 p-4 py-16 bg-gradient-to-r from-sky-100 to-amber-100"
+      className="w-full m-auto md:pl-20 p-4 py-12 bg-gradient-to-r from-sky-100 to-amber-100"
     >
       <h1 className="py-4 text-4xl font-bold text-center text-[#273558] mb-6">
         Contact
@@ -13,6 +13,7 @@ const Contact = () => {
         action="https://getform.io/f/e5721c1d-0d42-4211-99de-8b0d94b2e352"
         method="POST"
         encType="multipart/form-data"
+        className="max-w-[1200px] mx-auto w-full"
       >
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col">
